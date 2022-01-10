@@ -1,3 +1,11 @@
+### To Test the script run
+myk <- makeCacheMatrix(matrix(1:4,nrow = 2,ncol = 2))
+myk$get()
+myk$getinvs()
+cacheSolve(myk)
+cacheSolve(myk)
+message("the end")
+
 ### Introduction
 
 This second programming assignment will require you to write an R
